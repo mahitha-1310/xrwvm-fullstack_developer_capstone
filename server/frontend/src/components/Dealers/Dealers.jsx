@@ -51,7 +51,6 @@ let isLoggedIn = sessionStorage.getItem("username") != null ? true : false;
 return(
   <div>
       <Header/>
-
      <table className='table'>
       <tr>
       <th>ID</th>
